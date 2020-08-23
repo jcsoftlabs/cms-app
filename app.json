@@ -1,0 +1,31 @@
+{
+	"expo": {
+		"name": "Forge Note",
+		"slug": "cms-app",
+		"privacy": "public",
+		"sdkVersion": "36.0.0",
+		"platforms": [ "ios", "android", "web" ],
+		"version": "1.0.0",
+		"orientation": "default",
+		"icon": "./assets/news.png",
+		"splash": {
+			"image": "./assets/splash-note.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#f0f3f5"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": [ "**/*" ],
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "com.rackdev.forgenote",
+			"buildNumber": "1.0.0"
+		},
+		"android": {
+			"package": "com.rackdev.forgenote",
+			"versionCode": 1
+		},
+		"description": "A news portal app"
+	}
+}
